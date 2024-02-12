@@ -1,0 +1,38 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    date (3.3.4)
+    diff-lcs (1.5.1)
+    geocoder (1.8.2)
+    open-uri (0.4.1)
+      stringio
+      time
+      uri
+    rspec (3.13.0)
+      rspec-core (~> 3.13.0)
+      rspec-expectations (~> 3.13.0)
+      rspec-mocks (~> 3.13.0)
+    rspec-core (3.13.0)
+      rspec-support (~> 3.13.0)
+    rspec-expectations (3.13.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.13.0)
+    rspec-mocks (3.13.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.13.0)
+    rspec-support (3.13.0)
+    stringio (3.1.0)
+    time (0.3.0)
+      date
+    uri (0.13.0)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  geocoder
+  open-uri
+  rspec
+
+BUNDLED WITH
+   2.3.26

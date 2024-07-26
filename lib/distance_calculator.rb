@@ -1,4 +1,4 @@
-module Distance_calculator
+module DistanceСalculator
   def self.calculate_distance_through_distancematrix(departure, destination)
     departure_coordinates = Geocoder.search(departure).first.coordinates
     destination_coordinates = Geocoder.search(destination).first.coordinates
